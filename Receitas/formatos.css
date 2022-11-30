@@ -1,10 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(0, 0, 0, 0.829);
+    color: rgb(191, 90, 50);
+    font-size: 25px;
+}
+
 .logo-img {
     height: 100px;
     width: 100px;
+    background-color:rgb(191, 90, 50)
 }
+
 .principal {
     text-align: center;
+    color: rgba(0, 0, 0, 0.829);
+    background-color: rgba(191, 90, 50);
+    font-family: Arial, Helvetica, sans-serif
 }
+
 .bem-vindo {
     margin-top: 50px;
+    padding-bottom: 50px;
+   
+}
+
+.footer {
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    color: rgba(191, 90, 50); 
+    background-color: rgba(0, 0, 0, 0.829);
+ 
 }

@@ -43,9 +43,28 @@ h4 {
 }
 
 
-@media (max-width: 500px) {
+
+@media screen and (max-width: 1386px) {
     .receitas-principal {
         flex-direction: column;
-        
+                      
+    }
+
+    .receitas-itens {
+        padding: auto;
+    }
+
+    .menu {
+        padding-left: 60px;
+    }
+
+    .img-receitas {
+        height: 80%;
+        width: 80%;
+        padding: 20px;
+    }
+
+    ul {
+        padding-left: 30px;
     }
 }    

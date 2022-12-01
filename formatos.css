@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif
+        
+}
+ 
+
+.menu {
+    
+    background-color: rgba(0, 0, 0, 0.829);
+    color: rgb(191, 90, 50);
+    font-size: 25px;
+}
+
+.logo-img {
+    height: 70px;
+    width: 70px;
+    background-color:rgb(191, 90, 50)
+}
+
+.principal {    
+    
+    padding: 230px;
+    text-align: center;    
+    color: rgba(0, 0, 0, 0.829);
+    background-color: rgba(191, 90, 50);
+    
+}
+
+.bem-vindo {
+    margin-top: 50px;
+    padding-bottom: 50px;
+   
+}
+
+.footer {
+    text-align: center;
+    align-self: auto;
+    width: 100%;
+    font-size: 25px;
+    color: rgba(191, 90, 50); 
+    background-color: rgba(0, 0, 0, 0.829);
+ 
+}
+
+
+@media (min-width: 500px) {
+    .principal {
+        display: grid;
+        height: 100%;
+        
+    }
+}    

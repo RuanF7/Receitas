@@ -56,4 +56,21 @@ h1 {
  
 }
 
+.nav-link {
+    color: rgb(191, 90, 50) !important;
+}
+
+form, .Efetue-cadastro{
+    background-color: rgb(191, 90, 50);
+    
+}
+
+
+.Efetue-cadastro {
+    margin-top: 0;
+}
+
+
+
+
 

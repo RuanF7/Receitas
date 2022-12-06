@@ -60,15 +60,25 @@ h1 {
     color: rgb(191, 90, 50) !important;
 }
 
+.navbar .nav-link:hover{
+    color: antiquewhite !important ;
+}
+
+.navbar .nav-link.active {
+    color: antiquewhite !important;
+}
+
+
 form, .Efetue-cadastro{
     background-color: rgb(191, 90, 50);
     
 }
 
-
 .Efetue-cadastro {
     margin-top: 0;
 }
+
+
 
 
 

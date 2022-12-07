@@ -1,69 +1,26 @@
-.receitas-principal{
-    background-color: rgba(191, 90, 50);
+.receitas-principal {
     display: flex;
-    width: 200px;
     
-    
-   
-
 }
-.receitas-itens {
-    background-color: rgba(0, 0, 0, 0.829);
+
+
+.card {
+    width: 300px;
+    height: 650px;
+    background-color:  rgba(0, 0, 0, 0.829);
     color: rgba(191, 90, 50);
     margin: 20px;
-    padding: 50px;
-
-    
+    align-items: center;
 }
 
-ul.receitas{
-    
-    border-bottom-style:groove;
-    border-color: rgba(191, 90, 50);
-    padding: 15px;
-    padding-left: 70px;
-    
+.card-img-top{
+    height: 198.66px;
 }
 
-.img-receitas {
-    height: 200px;
-    width: 300px;
-    padding: 15px;
-    align-items:center
-    
+ul{
+    font-size: 20px;
 }
 
-h2 {
-    padding: 15px;
-    text-align:center;
+h4{
+    font-size: 20px;
 }
-
-
-h4 {
-    padding: 15px;
-}
-
-
-@media screen and (max-width: 1386px) {
-    .receitas-principal {
-        flex-direction: column;
-                      
-    }
-
-    .receitas-itens {
-        padding: auto;
-    }
-    .menu {
-        padding-left: 60px;
-    }
-
-    .img-receitas {
-        height: 80%;
-        width: 80%;
-        padding: 20px;
-    }
-
-    ul.receitas {
-        padding-left: 30px;
-    }
-}    

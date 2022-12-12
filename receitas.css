@@ -6,7 +6,7 @@
 
 .card {
     width: 300px;
-    height: 650px;
+    height: 100%;
     background-color:  rgba(0, 0, 0, 0.829);
     color: rgba(191, 90, 50);
     margin: 20px;
@@ -30,5 +30,16 @@
 .card-body{
     font-size: 20px;
     padding: 15px 5px;
+    
+}
+@media (max-width: 400px){
+    .card-body {
+        font-size: 15px;
+       
+    }
+    .card {
+        height: auto;
+    }
+    
     
 }

@@ -7,17 +7,21 @@
     
            
 }
- 
 
 .menu {
     
     background-color: rgba(0, 0, 0, 0.829);
     color: rgb(191, 90, 50);
     font-size: 25px;
+    height: 60px;
+    
+    
+    
+    
 }
 body{
     background-color: rgb(191, 90, 50);
-    
+    height: 100vh;
 }
 
 
@@ -43,8 +47,7 @@ h1 {
     overflow-y: auto;
     
             
-    }
-    
+}   
 
 
 .bem-vindo {
@@ -60,6 +63,7 @@ h1 {
     font-size: 25px;
     color: rgba(191, 90, 50); 
     background-color: rgba(0, 0, 0, 0.829);
+    margin-top: 17em
  
 }
 
@@ -74,7 +78,6 @@ h1 {
 .navbar .nav-link.active {
     color: antiquewhite !important;
 }
-
 
 form, .Efetue-cadastro{
     background-color: rgb(191, 90, 50);

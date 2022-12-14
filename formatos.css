@@ -18,6 +18,7 @@
     
     
     
+    
 }
 body{
     background-color: rgb(191, 90, 50);
@@ -99,7 +100,14 @@ form {
     font-size: 60px;
 }
 
+@media (max-width: 540px ) {
+    
+    
+    .btn {
+        margin-top: 20px;
+    }
 
+}
 
 
 

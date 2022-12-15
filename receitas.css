@@ -1,8 +1,6 @@
 .receitas-principal {
-    display: flex;
-    
+    display: flex;    
 }
-
 
 .card {
     width: 300px;
@@ -11,7 +9,6 @@
     color: rgba(191, 90, 50);
     margin: 20px;
     align-items: center;
-
 }
 
 .card-img-top{
@@ -32,14 +29,10 @@
     padding: 15px 5px;
     
 }
+
+/*Media query*/
 @media (max-width: 400px){
     .card-body {
-        font-size: 15px;
-       
-    }
-    .card {
-        height: auto;
-    }
-    
-    
+        font-size: 15px;       
+    }   
 }
